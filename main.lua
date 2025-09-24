@@ -1,9 +1,6 @@
 -- main.lua
 function love.load()
-    player = { x = 400, y = 300, size = 30, speed = 200 }
-    target = { x = math.random(50, 750), y = math.random(50, 550), size = 20 }
     object = { x = 600, y = 300, size = 10 }
-    score = 0
     width = 800
     height = 600
     font = love.graphics.newFont(24)
